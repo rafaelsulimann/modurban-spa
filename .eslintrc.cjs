@@ -21,6 +21,7 @@ module.exports = {
     "react/jsx-filename-extension": "off",
     "react-refresh/only-export-components": "off",
     "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
     "prettier/prettier": ["error", {
       "printWidth": 80,
       "tabWidth": 2,

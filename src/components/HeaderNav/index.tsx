@@ -1,6 +1,7 @@
-import { User, ShoppingCart, Search } from "lucide-react";
+import { ShoppingCart, Search } from "lucide-react";
 import LogoIcon from "../LogoIcon";
 import Menu from "../Menu";
+import Login from "../Login";
 
 export default function HeaderNav() {
   return (
@@ -15,7 +16,7 @@ export default function HeaderNav() {
       </div>
       <div className="flex w-32 items-center justify-between">
         <Search className="size-7 cursor-pointer stroke-[0.5] text-zinc-800 hover:stroke-1 hover:text-rose-600" />
-        <User className="size-7 cursor-pointer stroke-[0.5] text-zinc-800 hover:stroke-1 hover:text-rose-600" />
+        <Login />
         <ShoppingCart className="size-7 cursor-pointer stroke-[0.5] text-zinc-800 hover:stroke-1 hover:text-rose-600" />
       </div>
     </nav>

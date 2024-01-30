@@ -17,7 +17,7 @@ export default function LogoIcon({ slideTo }: Props) {
   return (
     <Link to="/">
       <h1
-        className="mr-10 text-2xl tracking-wide text-rose-600 hover:text-rose-500"
+        className="mr-10 font-['Dorsa'] text-[2.75rem] tracking-wide text-rose-600 hover:text-rose-500"
         onClick={handleSlideTo}
       >
         Mod Urban
