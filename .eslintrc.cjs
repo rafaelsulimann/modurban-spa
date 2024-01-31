@@ -22,6 +22,7 @@ module.exports = {
     "react-refresh/only-export-components": "off",
     "import/no-extraneous-dependencies": "off",
     "import/extensions": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "prettier/prettier": ["error", {
       "printWidth": 80,
       "tabWidth": 2,

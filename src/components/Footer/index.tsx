@@ -1,6 +1,6 @@
 import formaPagamento from "../../assets/formapagamento.png";
 import seguranca from "../../assets/seguranca.png";
-import FooterSection from "../FooterSection";
+import FooterSection from "./footer-section";
 import LogoIcon from "../LogoIcon";
 import Menu from "../Menu";
 

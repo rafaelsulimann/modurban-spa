@@ -1,5 +1,5 @@
-import HeaderInfos from "../HeaderInfos";
-import HeaderNav from "../HeaderNav";
+import HeaderInfos from "./header-infos";
+import HeaderNav from "./header-nav";
 
 export default function Header() {
   return (
