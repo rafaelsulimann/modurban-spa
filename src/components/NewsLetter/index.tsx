@@ -9,7 +9,11 @@ export default function NewsLetter() {
           Ganhe R$10 OFF em seu primeiro pedido conosco, receba tudo em primeira
           mão neste clubinho vip
         </p>
-        <form action="#" onSubmit={() => {}}>
+        <form
+          onSubmit={(event) => {
+            event.preventDefault();
+          }}
+        >
           <input
             type="text"
             placeholder="E-mail"
